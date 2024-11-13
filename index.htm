@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Визитка Егорыч</title>
+    <link rel="StyleSheet" href="StyleSheet.css">
+    <script>
+        function showAlert() {
+            alert("Шнапс сейчас чилит с братвой, поэтому ваша заявка рассмотрится позже");
+        }
+    </script>
+</head>
+<body>
+    <nav class="nav-menu">
+        <a href="#me">Шнапс</a>
+        <a href="#services">Услуги</a>
+        <a href="#contacts">Контакты</a>
+        <a href="#" onclick="showAlert()" class="button">Оставить заявку</a>
+    </nav>
+
+    <section id="me" class="section">
+        <div class="container">
+            <div class="item image">
+                <img src="me.png" alt="Фото Шнапса" width="500px">
+            </div>
+            <div class="item content">
+                <h1>Приветствую на своей web-странице!</h1>
+                <p class="intro-text">
+                    Меня зовут Шнапс!
+                </p>
+                <p>(Список предоставляемых услуг ниже во вкладке «Услуги»)</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="section">
+        <h2>Услуги</h2>
+        <div class="container2">
+            <div class="service-item">
+                <h3>Кайфануть (желательно на базе)</h3>
+                <img src="ponchic.png" alt="Услуга 1" width="360px">
+            </div>
+            <div class="service-item">
+                <h3>Сыграть вам на гитаре</h3>
+                <img src="gitara.png" alt="Услуга 2" width="360px">
+            </div>
+            <div class="service-item">
+                <h3>Жёстко раскумариться</h3>
+                <img src="raskumar.png" alt="Услуга 3" width="360px">
+            </div>
+            <div class="service-item">
+                <h3>Почитстить картофан</h3>
+                <img src="bulba.png" alt="Услуга 4" width="360px">
+            </div>
+        </div>
+    </section>
+
+    <section id="contacts" class="section">
+        <h2>Контакты</h2>
+        <div class="social-links">
+            <a href="https://www.instagram.com/_.mad._ly/?igsh=bndiMjdqNTE4cnl1" target="_blank">Insta</a>
+            <a href="https://steamcommunity.com/profiles/76561199387914576" target="_blank">Steam</a>
+        </div>
+    </section>
+</body>
+</html>
